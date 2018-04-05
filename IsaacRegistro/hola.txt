@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+Este es un archivo de prueba
+=======
+hola
+Este es un archivo de prueba
+Este es un archivo de prueba
+hola
+
+>>>>>>> 7f8fbc79055f146311f08b667e822e3fd8567aa1
