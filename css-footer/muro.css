@@ -1,0 +1,32 @@
+.collapsible-header i {
+    width: 2.3rem;
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    
+}
+/* 
+.collapsible-body {
+    display: block;
+} */
+
+.collapsible-header {
+    background-color: rgba(134, 248, 134, 0.658) !important;
+    color: rgba(32, 2, 2, 0.747);
+    }
+.nav-wrapper {background-color: rgba(238, 44, 157, 0.658) !important;}
+
+.nav-wrapper i {color: black;}
+
+.collapsible-header:hover {
+    background-color: rgb(134, 248, 134)!important;
+    }
+
+header {border: 1px dashed blue;height: 100px; text-align: center; background-color: rgb(255, 255, 255);}
+footer {border: 1px dashed blue; text-align: center; background-color: rgb(255, 255, 255);}
+p { color: black; text-align: justify; display: inline-block;}
+h1 {text-align: left;}
+h2 {vertical-align: middle;}
+img {display: inline-block;}
