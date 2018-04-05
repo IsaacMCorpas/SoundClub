@@ -1,0 +1,55 @@
+.caja1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: black;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+    
+    text-align: center;
+    
+    background: white;
+    
+    margin: 0 0 25px;
+    
+    overflow: hidden;
+    
+    padding: 50px;
+    
+    border-radius: 0px 0px 0px 0px;
+    
+  
+    
+    border: 2px solid black;
+    }
+
+    .caja2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        
+        color: black;
+        
+        font-size: 18px;
+        
+        font-weight: 400;
+        
+        text-align: center;
+        
+        background: white;
+        
+        margin: 0 0 25px;
+        
+        overflow: hidden;
+        
+        padding: 20px;
+        
+        border-radius: 0px 50px 0px 50px;
+        
+        
+        border: 2px solid black;
+        }
+
+      
+                    
