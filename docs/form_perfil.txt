@@ -1,0 +1,12 @@
+fotoPerfil
+Nombre
+Apellido
+fechaNascimiento
+Sexo
+generosMusicales
+descripcion
+ciudad
+pais
+correo
+password
+
