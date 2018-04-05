@@ -17,11 +17,12 @@
                 Fotografia de Perfil:
             </label>
             <br>
-            <img src="./imagenes/foto.jpg" alt="ImposibleMostrar">
+            <img src="../imagenes/foto.jpg" alt="ImposibleMostrar">
             <p>
                 <input type="file" name="adjunto" />
             </p>
         </div>
+        <fieldset enabled="enabled">
         <div>
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"
@@ -44,7 +45,9 @@
             <label for="pass">Contraseña:</label>
             <input type="password" name="pass" id="pass" pattern="[A-Za-z0-9!?-]{8,12}" required/>
         </div>
+    </fieldset>
         <br>
+       <fieldset enabled="enabled">
         <div>
             <!-- Paises -->
             <select name="pais" class="formulariotexto">
@@ -318,6 +321,7 @@
                 <input type="text" name="apellido1" size="25" />
             </label>
         </div>
+    </fieldset>
         <br>
         <div>
             <!-- generos musicales -->
