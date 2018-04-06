@@ -1,0 +1,8 @@
+
+.icono{
+    right: 20px;
+}
+
+.collection .collection-item:hover {
+    background: aquamarine;
+}
