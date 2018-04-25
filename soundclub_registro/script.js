@@ -42,11 +42,12 @@ let validateForm = function () {
 
     if (cnt_ref != cnt_copy) {
         $('#passwordsignup_confirm').after('<div class= "error" > Las contraseñas deben coincidir</div > ');
-        return false;
+        _isValid= false;
     } else {
         $('#passwordsignup_confirm').after('<div class= "error" > Muy Bien! Coincide!</div > ');
-        return true;
+  
     };
+    return _isValid;
 };
 
 
@@ -88,8 +89,10 @@ $('#btnEnviar').click(function (evnt) {
         copy_contraseña: cnt_copy_Usuario
     };
 
-    validateForm();
-    enviardatos(campos_registro);
+    if (validateForm()) {
+        enviardatos(campos_registro);
+    } else{}
+    
 
 
 });
