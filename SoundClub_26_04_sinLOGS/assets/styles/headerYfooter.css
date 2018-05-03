@@ -104,10 +104,11 @@ height: 40px !important;
 /*footer*/
 footer {
     width: 100%;
-	font-family: Courier Prime Code;
+    font-family: Courier Prime Code;
     position: fixed;
     bottom: 0;
-}
+    height: 80px;
+    {
 .menu{
     font-size:2em; 
     color: #fff;

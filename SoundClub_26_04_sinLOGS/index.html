@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel="stylesheet" href="./assets/styles/headerYfooter.css">
     <link href="assets/styles/styles.css" type="text/css" rel="stylesheet" media="all" />
     <link href="assets/styles/print.css" type="text/css" rel="stylesheet" media="print" />
     <link href="assets/styles/screen.css" type="text/css" rel="stylesheet" media="screen" />
@@ -26,13 +26,33 @@
 
 <body>
 <header>
-        <div class="contenedor-cabecera">
+    <!-- Dropdown Structure -->
 
-            <div class="lupa col s6">
-                <i class="medium material-icons">library_music</i>SoundClub
-            </div>
 
-        </div>
+    
+<ul id="dropdown1" class="dropdown-content">
+    <li class="tab disabled"><a href="#!">Perfil</a></li>
+    <li><a href="#!">Editar</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Salir</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+            <img src="https://materializecss.com/images/yuna.jpg" alt="" class="circle">
+      <a href="#!" class="brand-logo">SoundClub</a>
+      <ul class="right hide-on-med-and-down">
+        
+        <!-- Dropdown Trigger -->
+        
+          
+        
+        <li><img src="https://materializecss.com/images/yuna.jpg" alt="" class="circle">
+            
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i></a></li>
+            
+      </ul>
+    </div>
+  </nav>
 
         <div class="row">
             <div class="col s12">
@@ -150,35 +170,18 @@
     </section>
 
 
-    <footer>
-        <div class="contenedor-menu">
-            <div>
-                <a href="index.html" class="menu">
-                    <i class="small fas fa-home "></i>
-                </a>
-            </div>
-            <div>
-                <a href="contacto.html" class="menu">
-                    <i class="small fas fa-address-book"></i>
-                </a>
-            </div>
-            <div>
-                <a href="mensajeria.html" class="menu">
-                    <i class="small fas fa-comments"></i>
-                </a>
-            </div>
-            <div>
-                <a href="editarperfil.html" class="menu">
-                    <i class="small material-icons">person</i>
-                </a>
-            </div>
-            <div>
-                <a href="registrar_usuario.html" class="menu">
-                    <i class="small material-icons">lock_open</i>
-                </a>
+    <footer class="page-footer">
+            <div class="container-footer">
+
+              <div class="row">
+
+                <div class="col l6 s12">
+                  <h5 class="white-text">SoundClub</h5>
+                </div>
+         
             </div>
         </div>
-    </footer>
+          </footer>
 
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -187,7 +190,6 @@
     <script src="assets/scripts/materialize.min.js"></script>
     <script src="assets/scripts/init.js"></script>
     <script src="assets/scripts/scripts.js"></script>
-
     <script src="./assets/js/lista_usuario.js"></script>
     <script src="./assets/js/buscador.js"></script>
     <script src="./assets/js/autocompletado.js"></script>
