@@ -13,7 +13,7 @@ let cargar_usuario_pagina=function(dato_usuario) {
 
 let buscar_usuario=function (data_to_send) {
     $.ajax({ 
-        url:    'http://www.mocky.io/v2/5adfba3f3300002500e4da5f',
+        url:    'http://www.mocky.io/v2/5aeb55283000005f005754c3',
         method: 'POST'
 
     }).done(function (data) {
