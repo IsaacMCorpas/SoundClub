@@ -1,4 +1,12 @@
 
+let  cargar_categorias_musicales=function (idUsuario) {
+    
+}
+
+let  cargar_instrumentos_musicales=function (idUsuario) {
+    
+}
+
 
 let cargar_usuario_pagina=function(dato_usuario) {
     
@@ -6,6 +14,8 @@ let cargar_usuario_pagina=function(dato_usuario) {
     document.getElementById('foto').innerHTML='<img  src="assets/images/'+ dato_usuario.imagen +'">';
     document.getElementById('nombre').innerHTML=dato_usuario.nombre +" "+ dato_usuario.apellidos;
     document.getElementById('descripcion').innerHTML=dato_usuario.descripcion;
+    cargar_categorias_musicales(dato_usuario.id);
+    cargar_instrumentos_musicales(dato_usuario.id);
 
     
 };
