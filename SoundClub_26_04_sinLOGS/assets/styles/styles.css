@@ -1,14 +1,9 @@
-
-
 *{
 	margin:0px;
 	padding:0px;
 }
 body {
     font-size: 16px;
-    /* overflow-y: scroll; */
-/*    background-image: url(imgs/fondo.jpg);*/
-
 }
 
 h2 {
@@ -18,97 +13,54 @@ h2 {
 }
 
 
-/*registrar usuario*/
-form {
-	margin:auto;
-	width: 50%;
-	max-width: 500px; /*ancho máximo*/
-	background-color: #f3e9e3;
-	padding: 30px;
-    border:1px solid rgba(0,0,0,0.2);
-    
-}
-
-.circle {
-    height: 32px;
-    width: 32px;
-    margin-top: 25px;
-    margin-right: -26px;
-}
-
-nav i.material-icons {
-    margin-top: 10px;
-}
-    /*pagina login*/
-
-/* scroll */
+/*************************************************** scroll ****************************************************/
 
 ::-webkit-scrollbar {
     width: 15px;
-    background: rgba(178, 53, 22, 0.404);
+    background: #011627;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: rgba(178, 53, 22, 0.829);
+    background-color: #FAA900;
 }
-/* header */
+/********************************************* header ****************************************************/
+
+.col.s12 {
+    height: 40px !important;
+}
 nav {
-    background: rgb(178, 52, 22);
+    
     height: 100px;
     padding: auto;
 }
-
-.col.s12{
-height: 40px !important;
-}
-    
-.contenedor-cabecera{
+.nav-wrapper {
+    padding: auto;
     width: 100%;
-    background: rgb(178, 52, 22);
+    background: #011627;
     color: white;
-    /*display: block;*/
-    /* position: relative; */
     padding: 1em;
-
 }
+nav .brand-logo {
+    padding: auto;
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    margin-left: 48px;
+}
+
 .lupa {
     font-family: Courier Prime Code;
     background: rgb(178, 52, 22);
     display: inline-block;
     margin-right: 2em;
 }
-/* mural */
 
-.collapsible-header i {
-    width: 2.3rem;
-    font-size: 2rem;
-    display: inline-block;
-    text-align: center;
-    margin-right: 1rem;
-    padding-top: 1rem;
-    
-}
-.collapsible-header {
-    background-color: #f3e9e3;
-   
-}
-.collapsible-header:hover {
-    background: rgb(178, 52, 22);
-    color:white;
-}
-.muro {
-    margin-bottom: 80px;
-    margin-top: 0;
-}
 
-/*footer*/
-footer {
-    width: 100%;
-	font-family: Courier Prime Code;
-    position: fixed;
-    bottom: 0;
-}
-.menu{
+
+/***esto que es???*/
+.menu {
     font-size:2em; 
     color: #fff;
 }
@@ -126,28 +78,89 @@ footer {
     text-align: center;
     display: inline-block;
     width: 18%;
-    
-}
-   
+} 
 .contenedor-menu > div:hover {
     color:black;
    }
 .menu:hover{
     font-size:2.4 em; 
     color:black; 
-   }
-/**********USUARIO*****/
+}
+/*****esto que es? final******/
 
-.container{
-   
+
+/********************************************** muro noticias ********************************************/
+
+.collapsible-header i {
+    width: 2.3rem;
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+    padding-top: 1rem;
     
+}
+
+.collapsible-header {
+    background-color: #FAA900;
+   
+}
+
+.collapsible-header:hover {
+    background-color: #011627;
+    color:white;
+}
+
+.muro {
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+/**********************************************footer*****************************************************/
+footer {
+    width: 100%;
+	font-family: Courier Prime Code;
+    position: fixed;
+    bottom: 0;
+   
+}
+.page-footer {
+     background-color: #011627;
+}
+
+
+
+/****************************************registrar usuario****************************************/
+form {
     margin:auto;
+    width: 50%;
+    max-width: 500px; /*ancho máximo*/
+    background-color: #f3e9e3;
+    padding: 30px;
+    border:1px solid rgba(0,0,0,0.2);
+    
+}
+
+.circle {
+    height: 32px;
+    width: 32px;
+    margin-top: 25px;
+    margin-right: -26px;
+}
+
+nav i.material-icons {
+    margin-top: 10px;
+}
+/***************************************************USUARIO**********************************************/
+
+.container {
+  margin:auto;
 	width: 50%;
 	max-width: 500px; /*ancho máximo*/
 	background-color: #f3e9e3;
 	padding: 30px;
-    border:1px solid rgba(0,0,0,0.2);
-    box-shadow: 1px 1px 3px grey;
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 3px grey;
 }
 a{
     color:  rgb(178, 52, 22);
@@ -163,12 +176,11 @@ a{
     margin:30px 0 20px 0 ;
     
  }
-.mensaje,.descripcion,.vive
- {
+.mensaje,.descripcion,.vive {
      border-bottom:1px solid rgba(0,0,0,0.2);
 }
 
- .fotoremitente>img{
+.fotoremitente>img {
      width: 80px;
      height: 80px;
      border-radius: 50px;
@@ -178,37 +190,30 @@ a{
      
      
  }
- .nombre_remitente{
+ .nombre_remitente {
      color: grey;
      font-weight: bold;
  }
- .mensaje>div{
+ .mensaje>div {
     display: inline-block;
     width: 30%;
     text-align: center;
     
 }
-.vive>i{
+.vive>i {
     color: grey;
 
 }
- .remitente>div{
+ .remitente>div {
      display: inline-block;
  }
 
  /******************PERFIL DE USUARIO*********************/
 
-
-
 .img-responsive {
     max-width: 100%;
     height: auto;
 }
-
-    
-
-
-
 
 input {
 	display: block;
@@ -254,11 +259,8 @@ button {
     max-width: 100%;
     height: auto;
 }
-/****************PAGINA DE LOGIN**********************/
 
-
-
-
+/***********************************************PAGINA DE LOGIN******************************************/
 
 input {
 	display: block;
@@ -277,7 +279,7 @@ input[type="submit"] {
 	margin-bottom: 0;
 }
 
-/************************MENSAJERIA***********************************/
+/************************************************MENSAJERIA***********************************************/
 
 .icono{
     right: 20px;
@@ -291,9 +293,7 @@ input[type="submit"] {
     background: grey;
 }
 
-/**************************REGISTRAR USUARIOS****************************/
-
-
+/****************************************REGISTRAR USUARIOS***********************************************/
 
 input {
 	display: block;
@@ -312,8 +312,9 @@ input[type="submit"] {
 	margin-bottom: 0;
 }
 
-/**************************LISTA USUARIOS****************************/
-#tabla img{
+/**************************************************LISTA USUARIOS****************************************/
+
+#tabla img {
     width: 50px;
 }
 #tabla li {
@@ -326,22 +327,28 @@ input[type="submit"] {
     /*the container must be positioned relative:*/
     position: relative;
     display: inline-block;
-  }
-  input {
+}
+
+input {
     border: 1px solid transparent;
     background-color: #f1f1f1;
     padding: 10px;
     font-size: 16px;
-  }
-  input[type=text] {
+}
+/**buscar..**/
+.input-field>label{
+   color: #E71D36;
+}
+
+input[type=text] {
     background-color: #f1f1f1;
     width: 100%;
-  }
-  input[type=submit] {
+}
+input[type=submit] {
     background-color: DodgerBlue;
     color: #fff;
-  }
-  .autocomplete-items {
+}
+.autocomplete-items {
     position: absolute;
     border: 1px solid #d4d4d4;
     border-bottom: none;
@@ -351,32 +358,32 @@ input[type="submit"] {
     top: 10%;
     left: 0;
     right: 0;
-  }
-  .autocomplete-items div {
+}
+.autocomplete-items div {
     padding: 10px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #d4d4d4;
-  }
-  .autocomplete-items div:hover {
+}
+.autocomplete-items div:hover {
     /*when hovering an item:*/
     background-color: dodgerblue;
-  }
-  .autocomplete-active {
+}
+.autocomplete-active {
     /*when navigating through the items using the arrow keys:*/
     background-color: DodgerBlue !important;
     color: #ffffff;
-  }
+}
   
-/**************************Editar perfil****************************/
-#foto img{
+/**************************************************Editar perfil******************************************/
+
+#foto img {
 	width: 300px;
 	height: 300px;
 	border: 1px solid #000;
 	margin: 10px 5px 0 0;
   }
-  
-
+ 
 /* header media query */
 @media only screen and (max-width: 992px){
 nav 

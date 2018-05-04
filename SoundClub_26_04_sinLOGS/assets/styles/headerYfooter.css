@@ -52,11 +52,6 @@ nav i.material-icons {
     background-color: rgba(178, 53, 22, 0.829);
 }
 /* header */
-nav {
-    background: rgb(178, 52, 22);
-    height: 100px;
-    padding: auto;
-}
 
 .col.s12{
 height: 40px !important;
