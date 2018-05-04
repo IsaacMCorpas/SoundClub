@@ -212,7 +212,7 @@ a{
      
  }
  .nombre_remitente {
-     color: grey;
+     color: black;
      font-weight: bold;
  }
  .mensaje>div {
@@ -222,12 +222,13 @@ a{
     
 }
 .vive>i {
-    color: grey;
+    color: black;
 
 }
  .remitente>div {
      display: inline-block;
  }
+
 
  /******************PERFIL DE USUARIO*********************/
 
