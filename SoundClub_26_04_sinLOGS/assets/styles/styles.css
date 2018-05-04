@@ -387,7 +387,8 @@ input[type=submit] {
 }
   
 .formulariotextopais{
-    display: block !important;
+    display: none !important;
+
 }
 #foto img {
 	width: 300px;

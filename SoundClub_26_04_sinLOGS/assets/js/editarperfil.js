@@ -101,7 +101,7 @@ let validateForm = function () {
         $('#passwordsignup_confirm').after('<div class= "error" > Las contraseñas deben coincidir</div > ');
         _isValid = false;
     } else {
-        $('#passwordsignup_confirm').after('<div class= "error" > Muy Bien! Coincide!</div > ');
+        
 
     };
     return _isValid;
