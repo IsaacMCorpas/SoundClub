@@ -144,6 +144,9 @@ footer {
 label {
 	color:black;
 }
+#btnlimpiar{
+    float: right;
+}
 /****************************************registrar usuario****************************************/
 .error {
 	color:red;
