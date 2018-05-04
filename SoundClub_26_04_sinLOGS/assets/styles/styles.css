@@ -57,7 +57,10 @@ nav .brand-logo {
     margin-right: 2em;
 }
 
-
+#imgheader
+{
+	display: inline-block !important;
+}
 
 /***esto que es???*/
 .menu {
@@ -66,8 +69,8 @@ nav .brand-logo {
 }
 .contenedor-menu {
     width: 100%;
-    background: rgb(178, 52, 22);
-    
+    background: #011627;
+    text-align: center;
     padding-top: 1px;
     bottom: 20px;
     display: block;
@@ -80,11 +83,11 @@ nav .brand-logo {
     width: 18%;
 } 
 .contenedor-menu > div:hover {
-    color:black;
+    color:#FAA900;
    }
 .menu:hover{
     font-size:2.4 em; 
-    color:black; 
+    color:#FAA900;
 }
 /*****esto que es? final******/
 
@@ -127,6 +130,7 @@ footer {
      background-color: #011627;
 }
 
+
 /****************************************editar perfil****************************************/
 ::placeholder{
 	color:#011627;
@@ -135,6 +139,9 @@ label {
 	color:black;
 }
 /****************************************registrar usuario****************************************/
+.error {
+	color:red;
+}
 form {
     margin:auto;
     width: 50%;
@@ -380,7 +387,8 @@ input[type=submit] {
 }
   
 .formulariotextopais{
-    display: block !important;
+    display: none !important;
+
 }
 #foto img {
 	width: 300px;
