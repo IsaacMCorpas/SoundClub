@@ -9,7 +9,7 @@ body {
 h2 {
 	text-align: center;
 	margin-bottom: 20px;
-	color:rgb(178, 52, 22);
+	color:#011627;
 }
 
 
@@ -88,7 +88,6 @@ nav .brand-logo {
 }
 /*****esto que es? final******/
 
-
 /********************************************** muro noticias ********************************************/
 
 .collapsible-header i {
@@ -128,16 +127,19 @@ footer {
      background-color: #011627;
 }
 
-
+/****************************************editar perfil****************************************/
+::placeholder{
+	color:#011627;
+}
 
 /****************************************registrar usuario****************************************/
 form {
     margin:auto;
     width: 50%;
     max-width: 500px; /*ancho máximo*/
-    background-color: #f3e9e3;
+    background-color: #F9DC9D;
     padding: 30px;
-    border:1px solid rgba(0,0,0,0.2);
+    border:1px solid #F9CB66;
     
 }
 
@@ -337,7 +339,7 @@ input {
 }
 /**buscar..**/
 .input-field>label{
-   color: #E71D36;
+   color: #011627;
 }
 
 input[type=text] {
@@ -375,7 +377,6 @@ input[type=submit] {
     color: #ffffff;
 }
   
-/**************************************************Editar perfil******************************************/
 .formulariotextopais{
     display: block !important;
 }
