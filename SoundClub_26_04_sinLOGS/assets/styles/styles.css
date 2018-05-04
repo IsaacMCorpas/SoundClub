@@ -62,7 +62,6 @@ nav .brand-logo {
 	display: inline-block !important;
 }
 
-/***esto que es???*/
 .menu {
     font-size:2em; 
     color: #fff;
@@ -89,9 +88,6 @@ nav .brand-logo {
     font-size:2.4 em; 
     color:#FAA900;
 }
-/*****esto que es? final******/
-
-/********************************************** muro noticias ********************************************/
 
 .collapsible-header i {
     width: 2.3rem;
@@ -117,7 +113,17 @@ nav .brand-logo {
     margin-bottom: 80px;
     margin-top: 0;
 }
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: #011627;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
 
+.dropdown-trigger{
+    /* display: none !important; */
+}
 /**********************************************footer*****************************************************/
 footer {
     width: 100%;
@@ -386,13 +392,10 @@ input[type=submit] {
     color: #ffffff;
 }
   
-.formulariotextopais{
-    display: none !important;
 
-}
 #foto img {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border: 1px solid #000;
 	margin: 10px 5px 0 0;
   }
