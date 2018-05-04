@@ -22,7 +22,7 @@
     <!--Import materialize.css-->
     <!-- Compiled and minified CSS -->
 </head>
-<body>
+<body class="background">
 <header>
         <div class="contenedor-cabecera">
 
@@ -34,13 +34,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">search</i>
-                        <input type="text" id="autocomplete-input" class="autocomplete2">
-                        <label for="autocomplete-input">Buscar...</label>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -49,10 +43,10 @@
 	<form action="" class="action" id="formulario">
 		<h2><i class="fas fa-music">SoundClub</i></h2>
 		
-        <input type="text" placeholder="&#128272; Usuario" name="Usuario" id="usuario">
-        <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="&#128272; myemail@email.com" />
-        <input type="password" id="passwordsignup" minlength= "3" maxlength="12"  placeholder="&#128272;Contraseña" name="clave" required>
-        <input id="passwordsignup_confirm" minlength= "3" maxlength="12" name="confirmar_clave" required="required" type="password" placeholder="&#128272; Repetir Contraseña"/>
+        <label>Usuario<input type="text" placeholder="&#128272;" name="Usuario" id="usuario"></label>
+        <label>Email<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="&#128272;"></label>
+        <label>Contraseña<input type="password" id="passwordsignup" minlength= "3" maxlength="12"  placeholder="&#128272;" name="clave" required></label>
+        <label>Repite contraseña<input id="passwordsignup_confirm" minlength= "3" maxlength="12" name="confirmar_clave" required="required" type="password" placeholder="&#128272;"/></label>
         <input id="btnEnviar" type="submit" value="registro"></input>
         
 	</form>
@@ -60,31 +54,7 @@
     
 <footer>
     <div class="contenedor-menu">
-        <div>
-            <a href="index.html" class="menu">
-                <i class="small fas fa-home "></i>
-            </a>
-        </div>
-        <div>
-            <a href="contacto.html" class="menu">
-                <i class="small fas fa-address-book"></i>
-            </a>
-        </div>
-        <div>
-            <a href="mensajeria.html" class="menu">
-                <i class="small fas fa-comments"></i>
-            </a>
-        </div>
-        <div>
-            <a href="editarperfil.html" class="menu">
-                <i class="small material-icons">person</i>
-            </a>
-        </div>
-        <div>
-            <a href="registrar_usuario.html" class="menu">
-                <i class="small material-icons">lock_open</i>
-            </a>
-        </div>
+        
     </div>
 </footer>
 
