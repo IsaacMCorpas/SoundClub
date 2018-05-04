@@ -20,18 +20,41 @@
     <link href="assets/styles/print.css" type="text/css" rel="stylesheet" media="print" />
     <link href="assets/styles/screen.css" type="text/css" rel="stylesheet" media="screen" />
 
+
+    <link href="assets/styles/modificar_usuario.css" type="text/css" rel="stylesheet" media="all" />
+
 </head>
 
 <body>
     <header>
-        <div class="contenedor-cabecera">
-
-            <div class="lupa col s6">
-                <i class="medium material-icons">library_music</i>SoundClub
+        <nav>
+            <ul id="dropdown1" class="dropdown-content">
+                <li class="tab disabled">
+                    <a href="#!">Perfil</a>
+                </li>
+                <li>
+                    <a href="./editarperfil.html">Editar</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="./Login.html">Salir</a>
+                </li>
+            </ul>
+            <div class="nav-wrapper">
+                <a href="./index.html">
+                    <img src="assets/images/LOGO2.png" width="180" alt="imagen Logo">
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <img src="https://materializecss.com/images/yuna.jpg" alt="foto Perfil" class="circle">
+                        <li>
+                            <a class="dropdown-trigger" href="./editarperfil.html" data-target="dropdown1">
+                                <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                </ul>
             </div>
-
-        </div>
-
+        </nav>
         <div class="row">
             <div class="col s12">
                 <div class="row">
@@ -44,12 +67,12 @@
             </div>
         </div>
 
-</header>
-    <section>
+    </header>
+    <section class="muro">
 
         <div id="usuario" idusuario="500" class="remitente">
-            <div id="foto" class="fotoremitente">
-                <img src="assets/images/contacto1.png">
+            <div id="foto" >
+                <img class="fotoremitente" src="assets/images/contacto1.png" alt="Foto del usuario">
             </div>
             <div id="nombre" class="nombre_remitente">Juan PEréz</div>
         </div>
@@ -72,48 +95,51 @@
         <div id="descripcion" class="descripcion">
 
         </div>
-        <div>
-            <div>
-                <a>
-                    <i class="material-icons">add</i>
-                </a>
-            </div>
-            <div>
-                <a>
-                    <i class="material-icons">add</i>
-                </a>
-            </div>
+        <div id="instrumentos">
+            <h5>Domino estos instrumentos</h5>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Guitarra</span>
+            </label>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Violín</span>
+            </label>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Piano</span>
+            </label>
         </div>
-
-
-
+        <br><br>
+        <div id="categoria_musical">
+            <h5>Generos musicales</h5>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Blues</span>
+            </label>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Jazz</span>
+            </label>
+            <label>
+                <input type="checkbox" checked="checked" disabled="disabled" />
+                <span>Rock and Roll</span>
+            </label>
+        </div>
+        <br><br>
     </section>
-    <footer>
-        <div class="contenedor-menu">
-            <div>
-                <a href="index.html" class="menu">
-                    <i class="small fas fa-home "></i>
-                </a>
-            </div>
-            <div>
-                <a href="contacto.html" class="menu">
-                    <i class="small fas fa-address-book"></i>
-                </a>
-            </div>
-            <div>
-                <a href="mensajeria.html" class="menu">
-                    <i class="small fas fa-comments"></i>
-                </a>
-            </div>
-            <div>
-                <a href="editarperfil.html" class="menu">
-                    <i class="small material-icons">person</i>
-                </a>
-            </div>
-            <div>
-                <a href="registrar_usuario.html" class="menu">
-                    <i class="small material-icons">lock_open</i>
-                </a>
+
+
+    <footer class="page-footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="#">
+                        <img src="assets/images/LOGO2.png" width="180" alt="">
+                    </a>
+                    <h5 class="white-text">SoundClub</h5>
+                </div>
+
             </div>
         </div>
     </footer>
