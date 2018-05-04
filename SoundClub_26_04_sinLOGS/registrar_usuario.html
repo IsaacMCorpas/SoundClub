@@ -24,20 +24,32 @@
 </head>
 <body class="background">
 <header>
-        <div class="contenedor-cabecera">
-
-            <div class="lupa col s6">
-                <i class="medium material-icons">library_music</i>SoundClub
-            </div>
-
+    <nav>
+        <ul id="dropdown1" class="dropdown-content">
+            <li class="tab disabled"><a href="#!">Perfil</a></li>
+            <li><a href="#!">Editar</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Salir</a></li>
+        </ul>
+        <div class="nav-wrapper">
+            <a href="#"><img src="assets/images/LOGO2.png" width="180" alt="LOGO2"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><img src="https://materializecss.com/images/yuna.jpg" alt="foto_perfil" class="circle">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i></a></li>  
+            </ul>
         </div>
-
-        <div class="row">
-            <div class="col s12">
-                
+    </nav>
+    <div class="row">
+        <div class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">search</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete2">
+                     <label for="autocomplete-input">Buscar...</label>
+                </div>
             </div>
         </div>
-
+    </div>
 </header>
     <section class="muro">
 	<form action="" class="action" id="formulario">

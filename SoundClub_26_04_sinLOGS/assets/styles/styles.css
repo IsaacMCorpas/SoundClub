@@ -131,7 +131,9 @@ footer {
 ::placeholder{
 	color:#011627;
 }
-
+label {
+	color:black;
+}
 /****************************************registrar usuario****************************************/
 form {
     margin:auto;
