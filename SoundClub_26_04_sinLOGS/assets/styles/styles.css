@@ -376,7 +376,9 @@ input[type=submit] {
 }
   
 /**************************************************Editar perfil******************************************/
-
+.formulariotextopais{
+    display: block !important;
+}
 #foto img {
 	width: 300px;
 	height: 300px;
