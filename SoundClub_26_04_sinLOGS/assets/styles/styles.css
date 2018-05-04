@@ -149,9 +149,10 @@ label {
 	color:red;
 }
 form {
+    margin-top: 20px;
     margin:auto;
-    width: 50%;
-    max-width: 500px; /*ancho máximo*/
+    width: 80%;
+    
     background-color: #F9DC9D;
     padding: 30px;
     border:1px solid #F9CB66;
