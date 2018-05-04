@@ -27,11 +27,11 @@
     </nav>
 </header>
 <section class="muro">
-        <form action="" class="action">
+        <form action="" class="action" id="formulario">
             <h2>Login</h2>
-            <label>Nombre de usuario<input type="text" placeholder="&#128272; Usuario" name="Usuario"></label>
-            <label>Contraseña<input type="password" placeholder="&#128272;Contraseña" name="clave"></label>
-            <input type="submit" value="Entrar"><a href="./registrar_usuario.html">Registrate ahora</a>
+            <label>Nombre de usuario<input type="text" placeholder="&#128272; Usuario" name="Usuario" id="usuario"></label>
+            <label>Contraseña<input type="password" id="passwordsignup" minlength= "3" maxlength="12" placeholder="&#128272;Contraseña" name="passwordsignup"></label>
+            <input id="btnEntrar" type="submit" value="Entrar"><a href="./registrar_usuario.html">Registrate ahora</a>
         </form>
 </section>
 <footer>
@@ -48,8 +48,8 @@
     <script src="assets/scripts/materialize.min.js"></script>
     <script src="assets/scripts/init.js"></script>
     <script src="assets/scripts/scripts.js"></script>
-
-
+    <script src="./assets/js/login.js"></script>
 </body>
+
 
 </html>

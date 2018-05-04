@@ -13,7 +13,7 @@ let cargar_usuario = function (dato_usuario) {
         let idusuario = this.getAttribute("idusuario");
         console.log(idusuario);
         sessionStorage.setItem('idusuario', idusuario);
-        window.location.assign("./usuario.html");
+        window.location.href="./usuario.html";
     });
 
 };
