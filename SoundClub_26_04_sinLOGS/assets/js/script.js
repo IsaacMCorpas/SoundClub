@@ -62,6 +62,7 @@ let enviardatos = function (data_to_send) {
     }).done(function (response) {
         console.log(response);
         if (response.result) {
+            window.location.href="./paginaprincipal.html";
             console.log('ENVIADO', data_to_send); 
         }
 
